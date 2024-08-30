@@ -2,7 +2,7 @@ import telebot
 import requests
 import json
 
-weather_bot = telebot.TeleBot('')
+weather_bot = telebot.TeleBot('o')
 API = ''
 
 
