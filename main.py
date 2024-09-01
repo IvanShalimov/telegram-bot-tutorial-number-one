@@ -2,8 +2,9 @@ import telebot
 from telebot import types
 import webbrowser
 import sqlite3
+from config import BOT_TOKEN
 
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot(BOT_TOKEN)
 
 name = None
 

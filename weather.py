@@ -1,9 +1,11 @@
 import telebot
 import requests
 import json
+from config import BOT_TOKEN
+from config import API
 
-weather_bot = telebot.TeleBot('o')
-API = ''
+weather_bot = telebot.TeleBot(BOT_TOKEN)
+
 
 
 @weather_bot.message_handler(commands=['start'])
